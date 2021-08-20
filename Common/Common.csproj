@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  	<AssemblyName>GG.Common</AssemblyName>
+  	<Authors>Josty Qweenq</Authors>
+	<Version>1.0</Version>
+    
+	<RootNamespace>GG.Common</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.6.4" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+</Project>
